@@ -5,12 +5,23 @@ on:
   workflow_dispatch:
 
 jobs:
-  projeto1-sistema-de-controle-de-pedidos:
-    name: projeto1-sistema-de-controle-de-pedidos
+  projeto1:
+    name: projeto1
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 1-bimestre/logica-de-programacao/projetos/projeto1-sistema-de-controle-de-pedidos
+        working-directory: 3-bimestre/logica-de-programacao/projetos/projeto1
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: npm test
+
+  projeto2:
+    name: projeto2
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 3-bimestre/logica-de-programacao/projetos/projeto2
     steps:
       - uses: actions/checkout@v4
       - run: npm install
