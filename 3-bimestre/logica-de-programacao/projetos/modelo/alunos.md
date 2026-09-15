@@ -26,7 +26,6 @@ MigueelArcanjo
 murillord22
 RafaelAraujoB
 RavideOliveira
-RENARAvanessa
 RobsonCastr
 Ruan-Felix
 ryaneoliveira
