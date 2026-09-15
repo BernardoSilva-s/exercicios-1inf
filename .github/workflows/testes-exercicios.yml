@@ -83,11 +83,11 @@ jobs:
     - run: npm test
 
   aula14:
-  name: aula14
+  name: aula17
   runs-on: ubuntu-latest
   defaults:
     run:
-      working-directory: 3-bimestre/logica-de-programacao/aula14
+      working-directory: 3-bimestre/logica-de-programacao/aula17
   steps:
     - uses: actions/checkout@v4
     - run: npm install
