@@ -8,14 +8,12 @@ const curso = "Desenvolvimento de Sistemas"
 const escola = "EEEP"
 ```
 
-> SUA TAREFA!
->
-> 1. Adicione os valores das variáveis `nome`, `curso` e `escola` como o exemplo acima, trocando o sinal ❓.
-> 2. Adicione as variáveis nos locais corretos em `const mensagem = ...`
+## ⭐ SUA TAREFA!
+1. Adicione os valores das variáveis `nome`, `curso` e `escola` como o exemplo acima, trocando o sinal ❓.
+2. Adicione as variáveis nos locais corretos em `const mensagem = ...`
 
 Ela mensagem deverá aparecer assim:
 
-```
-Carlos está estudando Desenvolvimento de Sistemas na EEEP.
+> Carlos está estudando Desenvolvimento de Sistemas na EEEP.
 
 Boas práticas! 🤙
