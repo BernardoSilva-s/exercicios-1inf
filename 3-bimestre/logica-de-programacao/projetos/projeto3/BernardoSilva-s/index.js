@@ -58,6 +58,7 @@ if (acessoStatus === "Credenciamento liberado" && pagamentoStatus === "Pagamento
 }
 
 
+
 const resumo = `
 Nome: ${nome}
 Cargo: ${cargo}
@@ -70,11 +71,7 @@ Situação do pagamento: ${pagamentoStatus}
 Situação final: ${statusCongresso}
 `
 
-
-
-
-
-
+console.log(resumo)
 
 
 
